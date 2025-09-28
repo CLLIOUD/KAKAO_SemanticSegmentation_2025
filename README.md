@@ -1,4 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/README.md b/README.md
 index eefd93faeb962162caf8d0353cfc34ff980e0a3b..098e854a22a552f574aa2217fc0d3a9c9741e62f 100644
 --- a/README.md
@@ -150,4 +149,3 @@ index eefd93faeb962162caf8d0353cfc34ff980e0a3b..098e854a22a552f574aa2217fc0d3a9c
 +> * 200회 반복을 9그룹으로 수행한 추론 지연 시간과 FPS를 제공합니다.
 +
 +이 문서에 정리된 스크립트들을 활용하면 DDRNet 기반 모델의 학습부터 추론, 평가, 성능 분석까지 한 번에 수행할 수 있습니다.
- 
